@@ -17,6 +17,7 @@
 		EAE14A54213D12BC008054A1 /* B.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EAE14A4F213D12BB008054A1 /* B.m4a */; };
 		EAE14A55213D12BC008054A1 /* C.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EAE14A50213D12BB008054A1 /* C.m4a */; };
 		EAE14A56213D12BC008054A1 /* A.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EAE14A51213D12BB008054A1 /* A.m4a */; };
+		EAE14A58213D322F008054A1 /* NumbersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE14A57213D322F008054A1 /* NumbersVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		EAE14A4F213D12BB008054A1 /* B.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = B.m4a; sourceTree = "<group>"; };
 		EAE14A50213D12BB008054A1 /* C.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = C.m4a; sourceTree = "<group>"; };
 		EAE14A51213D12BB008054A1 /* A.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = A.m4a; sourceTree = "<group>"; };
+		EAE14A57213D322F008054A1 /* NumbersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			children = (
 				EA5DBA27213B86AA006F7F47 /* AppDelegate.swift */,
 				EABD8F55213BEA11001BEE61 /* AlphabetVC.swift */,
+				EAE14A57213D322F008054A1 /* NumbersVC.swift */,
 				EA5DBA2B213B86AA006F7F47 /* Main.storyboard */,
 				EA5DBA2E213B86AB006F7F47 /* Assets.xcassets */,
 				EA5DBA30213B86AB006F7F47 /* LaunchScreen.storyboard */,
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE14A58213D322F008054A1 /* NumbersVC.swift in Sources */,
 				EA5DBA28213B86AA006F7F47 /* AppDelegate.swift in Sources */,
 				EABD8F56213BEA11001BEE61 /* AlphabetVC.swift in Sources */,
 			);
@@ -320,7 +324,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vuduong.Kidos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -339,7 +343,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vuduong.Kidos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

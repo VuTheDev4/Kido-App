@@ -43,4 +43,12 @@ class AlphabetVC: UIViewController {
             print("couldn't load the file")
         }
     }
+    
+    @IBAction func backBtnPressed(_ sender: UIButton) {
+        
+        self.dismiss(animated: true, completion: nil)
+        
+    }
+    
+    
 }
